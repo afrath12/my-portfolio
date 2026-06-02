@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font and background for the whole page */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Style the navigation bar */
+header {
+  background-color: #2c3e50;
+  padding: 16px 32px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #3498db;
+}
+
+/* Main content area */
+main {
+  max-width: 800px;
+  margin: 0 auto;   /* centers the content */
+  padding: 32px 16px;
+}
+
+/* Each section */
+section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #2c3e50;
+  margin-bottom: 16px;
+}
+
+/* Style the skill list */
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+ul li {
+  background: #3498db;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 99px;
+  font-size: 13px;
+}
+
+/* Project card */
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+a {
+  color: #3498db;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #888;
+  font-size: 13px;
+}
