@@ -108,9 +108,9 @@ footer {
 }
 
 .cards-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 16px;
-  flex-wrap: wrap;
 }
 
 .project-card {
@@ -119,4 +119,30 @@ footer {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
+}
+
+/* On screens smaller than 600px (mobile) */
+@media (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 12px 16px;
+    gap: 8px;
+  }
+
+  nav {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  main {
+    padding: 16px 10px;
+  }
+
 }
